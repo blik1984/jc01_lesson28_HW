@@ -5,7 +5,7 @@ import java.util.Objects;
 public class Teacher extends Person {
 	private final String subject;
 
-	private Teacher() {
+	public Teacher() {
 		super();
 		this.subject = null;
 	}
