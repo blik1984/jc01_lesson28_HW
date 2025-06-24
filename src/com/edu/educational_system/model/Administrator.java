@@ -5,7 +5,7 @@ import java.util.Objects;
 public class Administrator extends Person {
 	private String department;
 
-	public Administrator() {
+	privat Administrator() {
 	}
 
 	public Administrator(String name, String email, String department) {
