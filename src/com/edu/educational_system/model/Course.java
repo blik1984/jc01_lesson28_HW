@@ -9,7 +9,7 @@ public class Course {
 	private final List<Person> participants;
 	private final List<Person> managers;
 
-	private Course() {
+	public Course() {
 		this.name = "name";
 		this.participants = new ArrayList<>();
 		this.managers = new ArrayList<>();
