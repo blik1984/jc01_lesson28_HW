@@ -6,7 +6,7 @@ public abstract class Person {
 	private String name;
 	private String email;
 
-	private Person() {
+	public Person() {
 	}
 
 	public Person(String name, String email) {
