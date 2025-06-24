@@ -5,6 +5,11 @@ import java.util.Objects;
 public class Teacher extends Person {
 	private final String subject;
 
+	private Teacher() {
+		super();
+		this.subject = null;
+	}
+	
 	public Teacher(String name, String email, String subject) {
 		super(name, email);
 		this.subject = subject;
