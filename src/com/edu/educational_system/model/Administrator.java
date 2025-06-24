@@ -3,7 +3,10 @@ package com.edu.educational_system.model;
 import java.util.Objects;
 
 public class Administrator extends Person {
-	private final String department;
+	private String department;
+
+	public Administrator() {
+	}
 
 	public Administrator(String name, String email, String department) {
 		super(name, email);
