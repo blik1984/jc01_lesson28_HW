@@ -6,6 +6,12 @@ public class Student extends Person {
 	private final String group;
 	private final double averageGrade;
 
+	private Student() {
+		super();
+		this.group = null;
+		this.averageGrade = 0;
+	}
+	
 	public Student(String name, String email, String group, double averageGrade) {
 		super(name, email);
 		this.group = group;
